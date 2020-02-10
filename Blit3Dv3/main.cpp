@@ -653,10 +653,7 @@ void DoInput(int key, int scancode, int action, int mods)
 			}
 		}
 
-		if (key == GLFW_KEY_R && action == GLFW_RELEASE)
-		{
-			map->generateMap(14, 6);
-		}
+
 
 		if (key == GLFW_KEY_V && action == GLFW_RELEASE)
 		{
@@ -723,11 +720,6 @@ void DoInput(int key, int scancode, int action, int mods)
 		}
 
 		if (key == GLFW_KEY_C && action == GLFW_RELEASE)
-		{
-			map->clearMap(true);
-		}
-
-		if (key == GLFW_KEY_F && action == GLFW_RELEASE)
 		{
 			map->clearMap(true);
 		}
